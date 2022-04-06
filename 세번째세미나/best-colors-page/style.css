@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.under {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  height: 85%;
+}
+
+.box {
+  position: relative;
+  height: 45%;
+  width: 40%;
+  border: 5px solid white;
+}
+
+.textbox {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  background-color: white;
+}

@@ -1,0 +1,56 @@
+body {
+  background-color: khaki;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  border: 5px solid white;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(to right, pink, indianred, pink);
+  border-radius: 50%;
+}
+
+.square {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 65%;
+  height: 65%;
+  background: linear-gradient(to bottom left, navy, 30%, lightblue);
+  border-color: black;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+}
+
+.box div {
+  width: 70px;
+  height: 70px;
+}
+
+.one div {
+  background-color: aquamarine;
+}
+
+.two div {
+  background-color: lightblue;
+}
+
+.three div {
+  background-color: navy;
+}
